@@ -1,0 +1,2 @@
+libs:
+  - location: https://github.com/mongoose-os-libs/ota-shadow

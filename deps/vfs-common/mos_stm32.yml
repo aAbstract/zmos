@@ -1,0 +1,5 @@
+libs:
+  - location: https://github.com/mongoose-os-libs/miniz
+
+init_after:
+  - miniz
