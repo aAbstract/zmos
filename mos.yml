@@ -17,7 +17,10 @@ filesystem:
 
 config_schema:
   - ["mqtt.server", "iot.eclipse.org:1883"]
+  - ["http.document_root", "public"]
+  - ["provision.timeout", 0] # device restart time in seconds
 
+# TODO-LATER: reduce firmware size by striping down dependencies
 libs:
   - location: https://github.com/mongoose-os-libs/boards
   - location: https://github.com/mongoose-os-libs/demo-bundle

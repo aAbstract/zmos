@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "mgos.h": "c",
+        "mgos_rpc.h": "c"
+    }
+}

@@ -22,9 +22,19 @@ It Sets up the foundation layer for higher-level software to run.
 The shell is a text based interface that allows users to interact with ZMOS kernel.  
 
 <b>Shell Capabilities:</b>  
-- System Bindings (Lua Wrapper for Kernel Components) [TODO]
-- Scripting (Setting up a Lua REPL) [TODO]
-- User Management and Access Control [TODO]
+- ATCA API
+- Device Config
+- Cron Jobs
+- File System API
+- BLE GATT (Generic ATTribute) API
+- GPIO API
+- I2C API
+- OTA Firmware Update
+- WiFi Config
+- Shell Scripting: [TODO]
+    - Unix Shell Utilities [TODO]
+    - Shell Scripting [TODO]
+    - User Management and Access Control [TODO]
 
 ### 3. Web Dashboard
 A lightweight web dashboard served via device's builtin webserver.  

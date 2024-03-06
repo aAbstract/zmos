@@ -1,5 +1,3 @@
-// examples/rpc.c
-
 #include "mgos.h"
 #include "mgos_rpc.h"
 
